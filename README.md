@@ -34,6 +34,3 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
   <img src="figures/_225057.gif" width="700">
 </p>
 
-<p float="center">
-  <img src="https://github.com/KindOPSTAR/VRMN-bD/blob/3cde53fb0afa3de9eda13234716eb78048b86969/figures/re-layout%20view-tool-sample.png" width="700">
-</p>
