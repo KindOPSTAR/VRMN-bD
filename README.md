@@ -17,8 +17,8 @@
 ---
 About this GitHub repository - This GitHub repository is for the dataset, pre-trained models, and demonstrations proposed in "**VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games**".
 <p float="center">
-  <img src="figures/_220444.gif" width="300">
-  <img src="figures/VR-pose-sample.png" width="650">
+  <img src="figures/_220444.gif" width="290">
+  <img src="figures/VR-pose-sample.png" width="680">
 </p>
 
 ![](figures/_220300.gif)
