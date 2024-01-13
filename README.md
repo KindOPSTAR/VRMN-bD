@@ -23,6 +23,15 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
 
 ![](figures/_220300.gif)
 
+<p float="center">
+  <img src="figures/_224716.gif" width="200">
+  <img src="figures/_224838.gif" width="800">
+</p>
+
+<p float="center">
+  <img src="figures/_225137.gif" width="200">
+  <img src="figures/_225057.gif" width="800">
+</p>
 
 <p float="center">
   <img src="https://github.com/KindOPSTAR/VRMN-bD/blob/3cde53fb0afa3de9eda13234716eb78048b86969/figures/re-layout%20view-tool-sample.png" width="700">
