@@ -93,3 +93,14 @@ Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immer
 - **Description**: This folder contains the pre-trained model.
 - **Contents**:  
     1. &nbsp;***sen_model_6classes_65.310.pkl***: Pre-trained model for 6 levels of fear.  
+
+## Citation
+
+Please cite the paper in your publications if our data, models ,and/or paper help your research.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+See the [LICENSE](LICENSE) file for details.
