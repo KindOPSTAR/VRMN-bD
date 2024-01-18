@@ -84,7 +84,9 @@ Figure 1. Human skeletal point calibration. Four Filr camera views (on two sides
 | BLSTM+attention| 2-classification   | 76.96%   | 82.65%  | 83.09% |
 
 ## Bidirectional LSTM + Attention Model for Multi-modal Fear Prediction
-![](figures/bLSTMstep-16.png)
+<p float="center">
+  <img src="figures/bLSTMstep-16.png" width="800">
+</p>
 Figure2. The architecture of BLSTM+attention model. Xt , Yt indicate the input and output on step t of the model. ht and ˆht stand for the hidden states of forward layer and backward layer for each step. Ot is the corresponding output of BLSTM model.
 
 ## Usage
