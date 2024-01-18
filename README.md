@@ -43,8 +43,7 @@ Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immer
     1. &nbsp;***dataset.json.gz***: Compressed dataset sequence [1.json.gz, 2.json.gz, ...] with all the features.  
     2. &nbsp;***data_model_description.md***: A markdown file explaining each feature in detail.
 
-`/model/`
+`/models/`
 - **Description**: This folder contains the pre-trained model.
 - **Contents**:  
-    1. &nbsp;***dataset.json.gz***: Compressed dataset sequence [1.json.gz, 2.json.gz, ...] with all the features.  
-    2. &nbsp;***data_model_description.md***: A markdown file explaining each feature in detail.
+    1. &nbsp;***sen_model_6classes_65.310.pkl***: Pre-trained model for 6 levels of fear.  
