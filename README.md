@@ -34,6 +34,15 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
   <img src="figures/_225057.gif" width="700">
 </p>
 
+| Model          | Task               | Accuracy | Recall  | F1     |
+|----------------|--------------------|----------|---------|--------|
+| LSTM           | 6-classification   | 60.22%   | 59.69%  | 61.34% |
+| LSTM+attention | 6-classification   | 59.41%   | 60.20%  | 62.34% |
+| BLSTM          | 6-classification   | 61.90%   | 61.74%  | 63.96% |
+| BLSTM+attention| 6-classification   | 65.31%   | 65.31%  | 67.46% |
+| LSTM           | 2-classification   | 90.47%   | 90.47%  | 90.47% |
+| BLSTM+attention| 2-classification   | 76.96%   | 82.65%  | 83.09% |
+
 ### Description
 Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games, including 3D human skeletal point data, digital audio signals, physiological signal (heart beat and breath rate) data, and emotional (fear) annotations.
 
