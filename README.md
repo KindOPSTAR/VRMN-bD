@@ -15,9 +15,13 @@
 #### @[IEEE VR 2024](https://ieeevr.org/2024/)
 
 ---
+## Description
 About this GitHub repository - This GitHub repository is for the dataset, pre-trained models, and demonstrations proposed in "**VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games**".
 
 ![](figures/VR-pose-sample.png)
+Figure 1. Human skeletal point calibration. Four Filr camera views (on two sides) and 3-D reconstructed skeletal point view (in the center).
+
+## Experimental Demos
 
 <p float="center">
   <img src="figures/_220444.gif" width="120">
@@ -69,7 +73,6 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
 | Mean      | 0.28               |                   | 0.09              |                   |                   |
 | Std       | 51.08              |                   | 0.35              |                   |                   |
 
-
 ## Performance of Models
 | Model          | Task               | Accuracy | Recall  | F1     |
 |----------------|--------------------|----------|---------|--------|
@@ -80,7 +83,11 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
 | LSTM           | 2-classification   | 90.47%   | 90.47%  | 90.47% |
 | BLSTM+attention| 2-classification   | 76.96%   | 82.65%  | 83.09% |
 
-## Description
+## Bidirectional LSTM + Attention Model for Multi-modal Fear Prediction
+![](figures/bLSTMstep-16.png)
+Figure2. The architecture of BLSTM+attention model. Xt , Yt indicate the input and output on step t of the model. ht and ˆht stand for the hidden states of forward layer and backward layer for each step. Ot is the corresponding output of BLSTM model.
+
+## Usage
 Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games, including 3D human skeletal point data, digital audio signals, physiological signal (heart beat and breath rate) data, and emotional (fear) annotations.
 
 `/data_model/`
