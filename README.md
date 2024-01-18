@@ -36,3 +36,9 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
 
 ### Description
 Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games, including 3D human skeletal point data, digital audio signals, physiological signal (heart beat and breath rate) data, and emotional (fear) annotations.
+
+`/data_model/`
+- **Description**: This folder contains the feature data for the project.
+- **Contents**:  
+    1. &nbsp;***dataset.json.gz***: Compressed dataset sequence [1.json.gz, 2.json.gz, ...] with all the features.  
+    2. &nbsp;***data_model_description.md***: A markdown file explaining each feature in detail.
