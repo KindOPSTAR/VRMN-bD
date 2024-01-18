@@ -96,7 +96,7 @@ Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immer
 
 ## Citation
 
-Please cite the paper in your publications if our data, models ,and/or paper help your research.
+Please cite the following paper in your publications if our data, models ,and/or paper help your research.
 
 
 ## License
