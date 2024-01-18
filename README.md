@@ -34,6 +34,43 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
   <img src="figures/_225057.gif" width="700">
 </p>
 
+## Performance of Dataset
+### 6-classification
+
+|           | Non-fear           |                   |                   | Fear              |                   |                   |                   |
+|-----------|--------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+|           | 0                  | 1                 | 2                 | 3                 | 4                 | 5                 | Total             |
+| Count     | 526281             | 284204            | 78099             | 31466             | 10202             | 427               | 967079            |
+| Ratio     | 58.18%             | 29.39%            | 8.08%             | 3.25%             | 1.05%             | 0.04%             | 100%              |
+| Heart rate|                    |                   |                   |                   |                   |                   |                   |
+| Mean      | 94.39              | 97.42             | 97.26             | 98.09             | 104.30            | 92.62             |                   |
+| Std       | 17.11              | 17.50             | 17.92             | 16.15             | 21.24             | 4.80              |                   |
+| Breath rate |                  |                   |                   |                   |                   |                   |                   |
+| Mean      | 15.89              | 16.71             | 17.82             | 17.91             | 18.38             | 16.86             |                   | 
+| Std       | 5.61               | 5.24              | 5.77              | 5.74              | 5.73              | 5.31              |                   |
+| Acceleration |                 |                   |                   |                   |                   |                   |                   |
+| Mean      | 0.28               | 0.09              | 0.09              | 0.09              | 0.12              | 0.12              |                   |
+| Std       | 51.08              | 0.28              | 0.57              | 0.07              | 0.55              | 0.12              |                   |
+
+### 2-classification
+
+|           | Non-fear           |                   | Fear              |                   | Total             |
+|-----------|--------------------|-------------------|-------------------|-------------------|-------------------|
+|           | 0                  |                   | 1                 |                   |                   |
+| Count     | 526281             |                   | 404398            |                   | 967079            |
+| Ratio     | 58.18%             |                   | 41.82%            |                   | 100%              |
+| Heart rate|                    |                   |                   |                   |                   |
+| Mean      | 94.39              |                   | 97.61             |                   |                   |
+| Std       | 17.11              |                   | 17.61             |                   |                   |
+| Breath rate |                  |                   |                   |                   |                   |
+| Mean      | 15.89              |                   | 17.06             |                   |                   |
+| Std       | 5.61               |                   | 5.42              |                   |                   |
+| Acceleration |                 |                   |                   |                   |                   |
+| Mean      | 0.28               |                   | 0.09              |                   |                   |
+| Std       | 51.08              |                   | 0.35              |                   |                   |
+
+
+## Performance of Models
 | Model          | Task               | Accuracy | Recall  | F1     |
 |----------------|--------------------|----------|---------|--------|
 | LSTM           | 6-classification   | 60.22%   | 59.69%  | 61.34% |
@@ -43,7 +80,7 @@ About this GitHub repository - This GitHub repository is for the dataset, pre-tr
 | LSTM           | 2-classification   | 90.47%   | 90.47%  | 90.47% |
 | BLSTM+attention| 2-classification   | 76.96%   | 82.65%  | 83.09% |
 
-### Description
+## Description
 Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games, including 3D human skeletal point data, digital audio signals, physiological signal (heart beat and breath rate) data, and emotional (fear) annotations.
 
 `/data_model/`
