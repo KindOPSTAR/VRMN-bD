@@ -107,6 +107,14 @@ Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immer
 
 Please cite the following paper in your publications if our data, models ,and/or paper help your research.
 
+> @misc{zhang2024vrmnbd,
+      title={VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games}, 
+      author={He Zhang and Xinyang Li and Yuanxi Sun and Xinyi Fu and Christine Qiu and John M. Carroll},
+      year={2024},
+      eprint={2401.12133},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
 
 ## License
 
