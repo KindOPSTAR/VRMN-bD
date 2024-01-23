@@ -1,5 +1,5 @@
 # VRMN-bD
-## VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games [[arXiv]]([https://arxiv.org/](https://arxiv.org/abs/2401.12133))
+## VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games [[arXiv]](https://arxiv.org/abs/2401.12133)
 ### He Zhang<sup>1,2</sup>, Xinyang Li<sup>3</sup>, Yuanxi Sun<sup>4</sup>, Xinyi Fu<sup>1</sup>, Christine Qiu<sup>5</sup>, and John M. Carroll<sup>2</sup>
 
 <sup>1</sup> The Future Laboratory, Tsinghua University
@@ -107,7 +107,7 @@ Dataset - The VRMN-bD dataset is a Multi-modal Natural Behavior Dataset of Immer
 
 Please cite the following paper in your publications if our data, models ,and/or paper help your research.
 
-Dataset and Pre-trained Model:
+[Dataset and Pre-trained Model](https://arxiv.org/abs/2401.12133):
 > @misc{zhang2024vrmnbd,
       title={VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games}, 
       author={He Zhang and Xinyang Li and Yuanxi Sun and Xinyi Fu and Christine Qiu and John M. Carroll},
@@ -117,7 +117,7 @@ Dataset and Pre-trained Model:
       primaryClass={cs.HC}
 }
 
-Quantitative analysis:
+[Quantitative analysis](https://arxiv.org/abs/2312.15582):
 > @misc{zhang2023decoding,
       title={Decoding Fear: Exploring User Experiences in Virtual Reality Horror Games}, 
       author={He Zhang and Xinyang Li and Christine Qiu and Xinyi Fu},
