@@ -1,5 +1,5 @@
 # VRMN-bD
-## VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games [[arXiv]](https://arxiv.org/)
+## VRMN-bD: A Multi-modal Natural Behavior Dataset of Immersive Human Fear Responses in VR Stand-up Interactive Games [[arXiv]]([https://arxiv.org/](https://arxiv.org/abs/2401.12133))
 ### He Zhang<sup>1,2</sup>, Xinyang Li<sup>3</sup>, Yuanxi Sun<sup>4</sup>, Xinyi Fu<sup>1</sup>, Christine Qiu<sup>5</sup>, and John M. Carroll<sup>2</sup>
 
 <sup>1</sup> The Future Laboratory, Tsinghua University
